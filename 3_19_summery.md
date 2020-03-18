@@ -25,6 +25,7 @@ Cloud SQLにプロキシ経由で接続するため，プロキシをインス�
 
 ```
 $ curl -o cloud_sql_proxy https://dl.google.com/cloudsql/cloud_sql_proxy.darwin.amd64
+
 \\ 権限の付与
 $ chmod +x cloud_sql_proxy
 ```
@@ -77,8 +78,10 @@ $ gcloud config set project Project_ID
 ```
 // $GOPATH/src/github.com/ の部分は人による
 $ cd $GOPATH/src/github.com/GoogleCloudPlatform/golang-samples/getting-started/
+
 // bookshelf ディレクトリを削除
 $ rm -rf $GOPATH/src/github.com/GoogleCloudPlatform/golang-samples/getting-started/bookshelf/
+
 // 古いバージョンのものをクローンする．
 $ git clone https://github.com/OnlyMyRailgun/bookshelf
 ```
