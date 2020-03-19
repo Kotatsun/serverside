@@ -32,11 +32,12 @@ $ chmod +x cloud_sql_proxy
 
 サービスアカウントの認証鍵ファイル(.json)を使ったプロキシサーバの起動方法．
 ```
-$ ./cloud_sql_proxy -instances=Project_ID:region:Instance_Name=tcp:13306 -credential_file=path_to_.json_file_for_authentification
+$ ./cloud_sql_proxy -instances=Project_ID:region:Instance_Name=tcp:13306 -credential_file=Path_To_File_for_Authentification.json
 ```
 
 #### c. MySQL のインストール
 (参考．[[mac] Homebrewを使ってMySQL5.7をインストールして初期設定 - Qiita](https://qiita.com/knoth071211/items/241bd94af722593e685e))
+(MySQL 8.0x はこちら：https://www.codingstock.jp/mac-mysql8/)
 
 ## 2.　今日の課題
 ## Go bookshelf アプリのチュートリアル
@@ -89,7 +90,7 @@ $ git clone https://github.com/OnlyMyRailgun/bookshelf
 #### 6. プロキシサーバの起動  
 先週と同じ．サービスアカウントの認証鍵ファイル(.json)を使ってプロキシサーバを起動する．
 ```
-$ ./cloud_sql_proxy -instances=Project_ID:region:Instance_Name=tcp:13306 -credential_file=path_to_.json_file_for_authentification
+$ ./cloud_sql_proxy -instances=Project_ID:region:Instance_Name=tcp:13306 -credential_file=Path_To_File_for_Authentification.json
 ```
 
 #### 7. bookshelf アプリ内からの接続設定  
