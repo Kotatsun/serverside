@@ -36,7 +36,7 @@ $ ./cloud_sql_proxy -instances=Project_ID:region:Instance_Name=tcp:13306 -creden
 ```
 
 #### c. MySQL のインストール
-(参考．[[mac] Homebrewを使ってMySQL5.7をインストールして初期設定 - Qiita](https://qiita.com/knoth071211/items/241bd94af722593e685e))
+(参考．[[mac] Homebrewを使ってMySQL5.7をインストールして初期設定 - Qiita](https://qiita.com/knoth071211/items/241bd94af722593e685e))  
 (MySQL 8.0x はこちら：https://www.codingstock.jp/mac-mysql8/)
 
 ## 2.　今日の課題
